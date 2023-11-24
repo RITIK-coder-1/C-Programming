@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int age = 29;
-    printf("hey");
+    printf("Hello, World!\n");
+    printf("hey\n");
     return 0;
 }
+
