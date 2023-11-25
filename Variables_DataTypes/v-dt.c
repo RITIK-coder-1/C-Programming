@@ -20,6 +20,12 @@ int main(){ // main function
 
     char a = 'a';
     // printf("The given character is: %c \n", a);
+
+    // Input --->
+    int number1, number2;
+    printf("*DISPLAY SUM OF ANY TWO NUMBERS* \n Enter the numbers: \n");
+    scanf("%d %d", &number1, &number2);
+    printf("The Sum: %d \n", number1 + number2);
     return 0;
 }
 
