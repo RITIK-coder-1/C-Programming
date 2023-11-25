@@ -3,5 +3,6 @@
 int main(){
     printf("hey\n");
     int num = 32;
+    return 0;
 }
 
