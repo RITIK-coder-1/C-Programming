@@ -31,5 +31,10 @@ int main ()
     int anotherNumber = 10;
     anotherNumber += number; // 22
     // printf("%d\n", anotherNumber);
+
+    // bitwise --->
+    int a = 10; // 1010
+    int b = 24; // 11000
+    // printf("%d\n", a & b); // 1000 // 8
     return 0;
 }
