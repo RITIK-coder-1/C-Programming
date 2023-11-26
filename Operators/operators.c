@@ -15,5 +15,12 @@ int main ()
     // printf("%d\n", num1 / 12); // division // 2 (integer)
     // printf("%f\n", num1 / 12.0); // division // 2.250000 (float)
     // printf("%d\n", num1 % 12); // modulus // remainder // 3
+
+    // relational ---->
+    printf("%d\n", 12 > 13); // false // 0
+    printf("%d\n", 12 < 13); // true // 1
+    printf("%d\n", 12 >= 13); // false // 0
+    printf("%d\n", 12 <= 12); // true // 1
+    printf("%d\n", 12 == 13); // false // 0
     return 0;
 }
