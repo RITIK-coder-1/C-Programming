@@ -11,21 +11,24 @@ int main(){ // main function
 
     // integer data type --->
 
-    int num1 = 23;
+    int num1 = 23; // any signed integer
     int num2 = 24;
     // printf("num1 is %d & num2 is %d\n", num1, num2);
     // printf("There sum is %d\n", num1 + num2);
 
     // character data type --->
 
-    char a = 'a';
+    char a = 'a'; //  a single character 
     // printf("The given character is: %c \n", a);
 
-    // Input --->
-    int number1, number2;
-    printf("*DISPLAY SUM OF ANY TWO NUMBERS* \n Enter the numbers: \n");
-    scanf("%d %d", &number1, &number2);
-    printf("The Sum: %d \n", number1 + number2);
+    // Floating-point numbers ----->
+
+    float b = 2.3456789999; // decimal value upto 6 decimal places // 2.345679
+    // printf("%f", b);
+
+    double c = 2.1234567891012; // decimal value double the float
+    printf("%.1f", c);
+
     return 0;
 }
 
