@@ -25,5 +25,11 @@ int main ()
     // equality ---->
     // printf("%d\n", 12 == 13); // false // 0
     // printf("%d\n", 12 != 13); // true // 1
+
+    // assignment --->
+    int number = 12;
+    int anotherNumber = 10;
+    anotherNumber += number; // 22
+    // printf("%d\n", anotherNumber);
     return 0;
 }
