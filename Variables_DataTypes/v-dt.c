@@ -4,7 +4,7 @@ int main(){ // main function
     // printf("hey\n"); 
 
     int num; // variable declaration
-    num = 23; // variable assignment
+    num = 23; // variable assignment (initialization)
     // printf("%d \n", num);
     num = 24; // variable reassignment
     // printf("%d \n", num);
