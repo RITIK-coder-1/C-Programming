@@ -11,4 +11,6 @@ int main(){
     printf("Enter the number: ");
     scanf("%d", &num2); // taking input
     printf("%d\n", num2); // displaying the input as output
+
+    return 0;
 }
