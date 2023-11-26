@@ -17,13 +17,13 @@ int main ()
     // printf("%d\n", num1 % 12); // modulus // remainder // 3
 
     // relational ---->
-    printf("%d\n", 12 > 13); // false // 0
-    printf("%d\n", 12 < 13); // true // 1
-    printf("%d\n", 12 >= 13); // false // 0
-    printf("%d\n", 12 <= 12); // true // 1
+    // printf("%d\n", 12 > 13); // false // 0
+    // printf("%d\n", 12 < 13); // true // 1
+    // printf("%d\n", 12 >= 13); // false // 0
+    // printf("%d\n", 12 <= 12); // true // 1
 
     // equality ---->
-    printf("%d\n", 12 == 13); // false // 0
-    printf("%d\n", 12 != 13); // true // 1
+    // printf("%d\n", 12 == 13); // false // 0
+    // printf("%d\n", 12 != 13); // true // 1
     return 0;
 }
