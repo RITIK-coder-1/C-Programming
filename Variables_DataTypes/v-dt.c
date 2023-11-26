@@ -16,6 +16,9 @@ int main(){ // main function
     // printf("num1 is %d & num2 is %d\n", num1, num2);
     // printf("There sum is %d\n", num1 + num2);
 
+    int num3 = 2.5;
+    // printf("%d\n", num3); // 2
+
     // character data type --->
 
     char a = 'a'; //  a single character 
@@ -27,7 +30,7 @@ int main(){ // main function
     // printf("%f", b);
 
     double c = 2.1234567891012; // decimal value double the float
-    printf("%.1f", c);
+    // printf("%1f", c);
 
     return 0;
 }
