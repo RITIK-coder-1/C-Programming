@@ -36,5 +36,8 @@ int main ()
     int a = 10; // 1010
     int b = 24; // 11000
     // printf("%d\n", a & b); // 1000 // 8
+
+    // sizeof --->
+    // printf("%d\n", sizeof(int)); // 4
     return 0;
 }
