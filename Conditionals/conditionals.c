@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int num = 0;
+    int num = -10;
 
     // else if ---->
+
     if (num == 0){
         printf("Zero\n");
     } else if (num > 0){
@@ -14,7 +15,7 @@ int main(){
 
     // nested if ---->
     if (num == 0){
-        printf("Zero\n");
+        // printf("Zero\n");
     } else {
         if (num > 0){
             // printf("Positive\n");
