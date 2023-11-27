@@ -21,12 +21,22 @@ void greetings(){
 
 }
 
+void table (){
+    int number;
+    printf("Enter any number to get its first 10 multiples: ");
+    scanf("%d", &number);
+    for(int i = 1; i <= 10; i++){
+        int product = number * i;
+        printf("%d\n", product);
+    }
+}
 int main()
 {
     // add(10,222);
 
     // greetings();
     
+    table();
     return 0;
 }
 
