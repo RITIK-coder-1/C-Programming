@@ -15,6 +15,27 @@ int main(){
         // printf("%d\n", num);
         num++;
     }
-        
+
+    // break --->
+    for (int i = 0; i <=20; i++){
+        if (i == 5){
+            // printf("5 has been detected\n");
+            break;
+        }
+
+        // printf("%d\n", i);
+    }    
+
+    // continue -->
+
+    for (int i = 0; i <=20; i++){
+        if (i == 5){
+            // printf("5 has been detected\n");
+            continue;
+        }
+
+        // printf("%d\n", i);
+    }
+
     return 0;
 }
