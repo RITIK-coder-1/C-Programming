@@ -36,7 +36,8 @@ int main()
 
     // greetings();
     
-    table();
+    // table();
+    
     return 0;
 }
 
