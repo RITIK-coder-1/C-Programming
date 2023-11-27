@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-add(int num1, int num2){
+void add(int num1, int num2){
     int sum = num1 + num2;
     printf("%d\n", sum);
 }
