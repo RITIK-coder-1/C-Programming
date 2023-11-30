@@ -39,5 +39,8 @@ int main ()
 
     // sizeof --->
     // printf("%d\n", sizeof(int)); // 4
+
+
+    int x = 5; int y = -x; printf("%d", y);
     return 0;
 }
