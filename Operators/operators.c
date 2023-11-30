@@ -41,6 +41,6 @@ int main ()
     // printf("%d\n", sizeof(int)); // 4
 
 
-    int x = 0; int y = !x; printf("%d", y);
+    int x = 0, y; y = x; printf("%d", y);
     return 0;
 }
