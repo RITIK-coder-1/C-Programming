@@ -38,6 +38,12 @@ int main()
     
     // table();
     
+    // char a = getchar();
+    // putchar(a);
+
+    // char b[5];
+    // gets(b);
+    // puts(b);
     return 0;
 }
 
